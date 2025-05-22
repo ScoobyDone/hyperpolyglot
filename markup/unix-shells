@@ -137,7 +137,7 @@ Literal quotes can be used to put characters that the shell lexer uses to distin
 | & ; ( ) < > space tab
 [[/code]]
 
-Literals quotes can also be used to prevent the parameter, brace, pathname, and tilde expansion as well as command substitution.  For {{bash}} the special characters that trigger these expansions are:
+Literal quotes can also be used to prevent the parameter, brace, pathname, and tilde expansion as well as command substitution.  For {{bash}} the special characters that trigger these expansions are:
 
 [[code]]
 $ { } * ? [ ] ` ~
